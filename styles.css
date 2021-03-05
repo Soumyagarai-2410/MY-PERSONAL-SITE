@@ -1,0 +1,153 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Architects Daughter';
+  color: #184d47;
+
+}
+h1{
+  color: #184d47;
+  font-size: 3rem;
+  margin-top: 0;
+}
+h2{
+  color: #00917c;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+h3{
+  color: #184d47;
+  font-size: 1.5rem;
+}
+hr{
+border:dotted #34626c 6px;
+border-bottom: none;
+width: 5%;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.topcontainer{
+  background-color:#ccf2f4;
+padding-top:50px;
+position:relative;
+}
+
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top:50px;
+}
+.bottom-cloud{
+  position:absolute;
+  left:100px;
+}
+
+.my-pic{
+  height:200px;
+  width:200px;
+  border-radius:50%;
+}
+.skillicon{
+  height: 20px;
+  width:20px;
+}
+.bottom-container{
+     margin: 0;
+background-color: #008891;
+padding: 50px 0 20px;
+}
+.middle-container{
+ background-color: #d3e0dc;
+  padding:50px 0;
+}
+.icon{
+  height:90px;
+  width: 90px;
+}
+.skill-row{
+  margin: 100px auto 100px auto;
+  width:50%;
+  text-align: left;
+  line-height: 2;
+}
+.wd-img{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+
+}
+.sing-img{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+.code-img{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+.food-img{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+p{
+  font-size: 1rem;
+  color:#007965;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+  color: #184d47;
+  font-size: 1.5rem;
+}
+a{
+  color:#d3e0dc;
+  margin: 10px 20px;
+}
+a:hover{
+  color: #025955;
+  border-color: black;
+}
+.down{
+  color:#025955;
+  font-size: 1.2rem;
+}
+
+.btn {
+   background: #002838;
+   background-image: -webkit-linear-gradient(top, #002838, #2EB5AF);
+   background-image: -moz-linear-gradient(top, #002838, #2EB5AF);
+   background-image: -ms-linear-gradient(top, #002838, #2EB5AF);
+   background-image: -o-linear-gradient(top, #002838, #2EB5AF);
+   background-image: -webkit-gradient(to bottom, #002838, #2EB5AF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 15px;
+   line-height: 15px;
+   color: #7EE3D0;
+   font-family: 'Architects Daughter';
+   width: 135px;
+   font-size: 18px;
+   font-weight: 900;
+   padding: 15px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: double rgba(25, 113, 147, 0.79) 0;
+   background: rgba(21, 120, 98, 0.8);
+   background-image: -webkit-linear-gradient(top, rgba(21, 120, 98, 0.8), rgba(47, 138, 121, 0.76));
+   background-image: -moz-linear-gradient(top, rgba(21, 120, 98, 0.8), rgba(47, 138, 121, 0.76));
+   background-image: -ms-linear-gradient(top, rgba(21, 120, 98, 0.8), rgba(47, 138, 121, 0.76));
+   background-image: -o-linear-gradient(top, rgba(21, 120, 98, 0.8), rgba(47, 138, 121, 0.76));
+   background-image: -webkit-gradient(to bottom, rgba(21, 120, 98, 0.8), rgba(47, 138, 121, 0.76));
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
